@@ -1,10 +1,6 @@
-$bgColor:  #FFFFFF;
-
-body {
-  background-color: $bgColor;
-}
+// $buttonColor: #FAFAFA;
+$buttonColor:  #E12027;
 
 .normalButton {
-  background-color: #1C5792;
-  //background-color: #e12027;
+  background-color: $buttonColor !important;
 }
