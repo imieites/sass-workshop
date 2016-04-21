@@ -1,0 +1,21 @@
+
+.btnGeneral {
+  margin: 20px;
+  background-color: #FFFFFF;
+  font-weight: bolder;
+}
+
+.btnType1 {
+  @extend .btnGeneral;
+  //background-color: red !important;
+}
+
+.btnType2 {
+  @extend .btnGeneral;
+  //background-color: blue !important;
+}
+
+.btnType3 {
+  @extend .btnGeneral;
+  //background-color: purple !important;
+}

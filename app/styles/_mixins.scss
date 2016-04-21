@@ -1,0 +1,17 @@
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.divMixin {
+  font-weight: bolder;
+  text-align: center;
+  margin: 30px !important;
+  border: #000000 1px solid;
+  background-color: #CECECE;
+  padding: 20px;
+  margin: 20px;
+  @include border-radius(0%);
+}

@@ -1,0 +1,66 @@
+/* Main - this comment survives transpiling */
+// this comment won't survive the transpiling
+body {
+  background-color: #FFFFFF;
+}
+
+pre {
+  font-family: "Roboto Slab" monospace;
+  font-size: 18;
+  border: #000000 1px solid;
+  background-color: #CECECE;
+  padding: 20px;
+}
+
+
+.toolbar {
+  background-color: #e12027;
+  min-height: 60px;
+}
+
+.mainTitle {
+  font-family: "Monserrat";
+  font-weight: bold;
+  font-size: 35;
+  margin: 25px;
+}
+
+.mainTitleToolbar {
+    color: #FFFFFF;
+}
+
+.mainTitleSuelto {
+  border: #000000 1px solid;
+  background-color: #CECECE;
+  padding: 20px;
+}
+
+.moreLink {
+  font-family: "Roboto Slab";
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.subTitle {
+  font-family: "Roboto Slab";
+  font-weight: normal;
+  margin: 25px;
+  text-align: center;
+}
+
+.subTitleToolbar {
+    color: #FFFFFF;
+}
+
+/*! Variables - this comment survives transpiling AND compression */
+@import 'variables';
+
+/* Nesting */
+@import 'nesting';
+
+/* Inheritance */
+@import 'inheritance';
+
+/* Mixins */
+@import 'mixins';
